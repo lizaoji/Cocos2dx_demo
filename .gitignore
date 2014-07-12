@@ -1,10 +1,7 @@
-ShootGhost/CMakeLists.txt
-ShootGhost/cocos2d
-ShootGhost/proj.android
-ShootGhost/proj.ios_mac
-ShootGhost/proj.linux
-ShootGhost/proj.win32
-ShootGhost/proj.wp8-xaml
+ShootGhost
+cocos2d
+proj.android
+proj.linux
+proj.wp8-xaml
 *.json
-
 *.ttf
