@@ -3,5 +3,3 @@ cocos2d
 proj.android
 proj.linux
 proj.wp8-xaml
-*.json
-*.ttf
