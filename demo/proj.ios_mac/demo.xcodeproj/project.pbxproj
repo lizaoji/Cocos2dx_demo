@@ -56,10 +56,10 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		9E0969F319715F500056DB16 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E0969F219715F500056DB16 /* bg.png */; };
 		9E406D93196E7A5D0088D13C /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E406D92196E7A5D0088D13C /* socket.cpp */; };
 		9E406D98196E9AD40088D13C /* inputBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E406D97196E9AD40088D13C /* inputBox.png */; };
 		9E406D9D196EC31A0088D13C /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E406D9C196EC31A0088D13C /* MenuScene.cpp */; };
-		9E406D9F196ED1D50088D13C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E406D9E196ED1D50088D13C /* bg.png */; };
 		9E406DA1196EEC510088D13C /* loginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E406DA0196EEC510088D13C /* loginButton.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -256,12 +256,12 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		9E0969F219715F500056DB16 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../proj.ios_mac/bg.png; sourceTree = "<group>"; };
 		9E406D91196E7A240088D13C /* socket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
 		9E406D92196E7A5D0088D13C /* socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
 		9E406D97196E9AD40088D13C /* inputBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputBox.png; sourceTree = "<group>"; };
 		9E406D9B196EC1240088D13C /* MenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		9E406D9C196EC31A0088D13C /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuScene.cpp; sourceTree = "<group>"; };
-		9E406D9E196ED1D50088D13C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = ../../../../../Downloads/pic/bg.png; sourceTree = "<group>"; };
 		9E406DA0196EEC510088D13C /* loginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginButton.png; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -462,7 +462,7 @@
 			children = (
 				9E406DA0196EEC510088D13C /* loginButton.png */,
 				9E406D97196E9AD40088D13C /* inputBox.png */,
-				9E406D9E196ED1D50088D13C /* bg.png */,
+				9E0969F219715F500056DB16 /* bg.png */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -659,12 +659,12 @@
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
-				9E406D9F196ED1D50088D13C /* bg.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				9E0969F319715F500056DB16 /* bg.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				9E406DA1196EEC510088D13C /* loginButton.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
