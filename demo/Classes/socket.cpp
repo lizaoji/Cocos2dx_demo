@@ -82,17 +82,3 @@ void BSDSocket::threadFun(const char * ip,unsigned int port){
     threadDone = true;
 }
 
-//int main(int argc, const char * argv[]) {
-//
-//    BSDSocket * BSDSocket = new BSDSocket();
-//    printf("begin:%s\n", BSDSocket->recvData);
-//    std::thread t1(&BSDSocket::threadFun, BSDSocket, "110.184.1.126", 2012);
-//    t1.detach();
-//    printf("thread t1 detached\n");
-//    while(!BSDSocket->threadDone){
-//        printf("main thread is waiting\n");
-//    }
-//    printf("after:%s\n", BSDSocket->recvData);
-//    return 0;
-//}
-

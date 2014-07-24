@@ -5,17 +5,20 @@
 //  Created by li zaoji on 7/10/14.
 //
 //
+#ifndef _MENU_SCENE_H_
+#define _MENU_SCENE_H_
 
 #include "cocos2d.h"
 #include "cocos-ext.h"
 #include "socket.h"
+#include "Game1Scene.h"
 
 USING_NS_CC;
 USING_NS_CC_EXT;
 using namespace std;
 
 //登陆场景
-class MenuScene: public Scene{
+class MenuScene: public Layer{
 public:
     bool init();
     static Scene * createScene();
@@ -29,6 +32,7 @@ private:
         loginButtonTag = 3,
         socketTag = 5
     };
+    bool continuePlayering = true;
 };
 
 //登陆box的分发器
@@ -43,3 +47,5 @@ public:
         //editBox->setPosition(
     }
 };
+
+#endif
